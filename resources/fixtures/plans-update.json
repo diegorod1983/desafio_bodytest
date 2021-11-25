@@ -1,0 +1,12 @@
+{
+  "before": {
+    "title": "Gym Plan",
+    "duration": 12,
+    "price": 90.0
+  },
+  "after": {
+    "title": "Total Plan",
+    "duration": 12,
+    "price": 100.0
+  }
+}
