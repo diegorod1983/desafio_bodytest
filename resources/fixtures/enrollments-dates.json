@@ -1,0 +1,15 @@
+{
+  "student": {
+    "name": "Sansa Stark",
+    "email": "sansa@stark.com",
+    "age": 16,
+    "weight": 60,
+    "feet_tall": 1.75
+  },
+  "plan": {
+    "title": "Stark Insurance",
+    "duration": 12,
+    "price": 100.0
+  },
+  "days": 365
+}

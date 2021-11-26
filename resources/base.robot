@@ -4,12 +4,14 @@ Documentation       Tudo começa aqui, meu arquivo base do projeto de automaçã
 Library             Browser
 Library             Collections
 Library             OperatingSystem
+Library             DateTime
 Library             libs/DeloreanLibrary.py
 
 Resource            actions/auth.robot
 Resource            actions/nav.robot
 Resource            actions/students.robot
 Resource            actions/plans.robot
+Resource            actions/enrollments.robot
 Resource            actions/components.robot
 
 ***Keywords***

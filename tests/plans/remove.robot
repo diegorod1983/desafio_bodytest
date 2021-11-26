@@ -3,7 +3,7 @@ Documentation       Suite de exclusão de planos
 
 Resource            ${EXECDIR}/resources/base.robot
 
-Test Setup          base.Start Admin Session
+Suite Setup         base.Start Admin Session
 Test Teardown       Take Screenshot
 
 ***Test Cases***

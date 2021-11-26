@@ -89,7 +89,7 @@ class DeloreanLibrary():
 
   def insert_plan(self, plan):
 
-    self.remove_plan(plan['title'])
+    self.remove_plan_by_title(plan['title'])
 
     query = ("insert into plans (title, duration, price, created_at, updated_at)"
             "values ('{}', {}, {}, NOW(), NOW());"

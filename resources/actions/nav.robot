@@ -8,8 +8,12 @@ User should be logged in
 
 Go to Students
     Click                         css=li a[href$=alunos]
-    Wait for Elements State       css=h1 >> text=Gestão de Alunos     visible     5
+    Wait for Elements State       css=h1 >> text=Gestão de Alunos           visible     5
 
 Go To Plans
     Click                         css=li a[href$=planos]
     Wait For Elements State       css=h1 >> text="Gestão de Planos"         visible     5
+
+Go To Enrollments
+    Click                         css=li a[href$="matriculas"]
+    Wait For Elements State       css=h1 >> text="Gestão de Matrículas"     visible     5    
